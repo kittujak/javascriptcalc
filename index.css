@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+width: 100%;
+height: 70px;
+background-color: aqua;
+border-bottom: 2px solid black;
+padding-top: 15px;
+}
+
+.header h1{
+    text-align: center;
+    color: brown;
+}
+
+.main{
+    
+    width: 100%;
+    height:500px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    
+   
+  
+}
+
+
+.main .calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.main .calc h2{
+    font-size: 2.2rem;
+    color: brown;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+
+.main .but{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.main .but .btn1 button{
+    width: 90px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: darkblue;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main .ans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.main .ans h3{
+    font-size: 2.2rem;
+    color: brown;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.main .ans #answer{
+    font-size: 1.8rem;
+    color:darkgoldenrod;
+    padding-left: 40px;
+}
